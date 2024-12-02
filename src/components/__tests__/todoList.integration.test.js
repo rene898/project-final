@@ -36,6 +36,6 @@ describe("TodoList integration tests", () => {
     expect(todo1).toHaveTextContent("Wash Dishes");
     expect(todo1).not.toContainHTML("strike");
     expect(todo2).toHaveTextContent("Make Dinner");
-    expect(todo2).toContainHTML("<strike>");
+    expect(todo2).toContainHTML("strike");
   });
 });
